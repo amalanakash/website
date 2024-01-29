@@ -1,14 +1,14 @@
-
-*{
+* {
   margin: 0px;
   padding: 0px;
 }
+
 .container {
   padding: 0px;
   margin: 0px;
   font-family: 'ralewayregular' 'Poppins', sans-serif;
 
-scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 
@@ -319,9 +319,9 @@ section {
 .bar nav {
   display: flex;
   flex-direction: column;
-  
+
   align-items: center;
-  
+
 }
 
 /* nav,
@@ -338,14 +338,13 @@ a {
     display: block;
 }  */
 /* ------------------------------------------------------------ */
-@media screen and (max-width:976px){
- 
-}
+@media screen and (max-width:976px) {}
+
 @media screen and (max-width:726px) {
-  
+
   body {
     display: block;
-    
+
   }
 
   .font h1 {
@@ -555,9 +554,9 @@ a {
     margin: 25px;
   }
 
-    header {
-      z-index: 1;
-    }
+  header {
+    z-index: 1;
+  }
 
   article {
     z-index: auto;
@@ -586,31 +585,33 @@ a {
   #logo {
     flex: 3;
     font-size: 2rem;
-    position: relative;
+
     left: 80px;
-    top: 29px;
+    top: 36px;
+    position: fixed;
   }
+}
 
 
-  #sidemenu {
-    display: none;
-  }
+#sidemenu {
+  display: none;
+}
 
-  .para {
-    width: 300px;
-    height: 200px;
-    position: absolute;
-    top: 80px;
-    left: 55px;
-    color: white;
-    letter-spacing: 2px;
-    font-size: 21px;
-  }
+.para {
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top: 80px;
+  left: 55px;
+  color: white;
+  letter-spacing: 2px;
+  font-size: 21px;
+}
 
 
-  .row {
-    margin-top: 5px;
-    display: table-column;
-    justify-content: space-evenly;
-  }
+.row {
+  margin-top: 5px;
+  display: table-column;
+  justify-content: space-evenly;
+}
 }
